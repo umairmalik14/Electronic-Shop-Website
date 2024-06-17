@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce Store</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!---Top Navbar--->
+    <div class="top-navbar">
+      <p>WELCOME TO MY SHOP</p>
+      <div class="icons">
+        <a href="login.html"
+          ><img src="images/register.png" alt="" width="18px" />Login</a
+        >
+        <a href="register.html"><img src="" alt="" width="18px" />Register</a>
+      </div>
+    </div>
+
+    <!---End Top Navbar--->
+
+    <!---Navbar--->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html" id="logo"
+          ><span id="span1">E</span>lectonic <span>Store</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span><img src="images/menu.png" alt="" width="30px" /></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="product.html">Product</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Category
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdown"
+                style="background-color: #fe7a36"
+              >
+                <li>
+                  <a class="dropdown-item" href="Mobile.html"
+                    >Mobile phone/Smart Watches</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="cameras.html"
+                    >Cameras/Headphones</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Fridge.html">Fridge/AC</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="pc.html">PC Monitor/Laptops</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" id="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!---End Navbar--->
+
+    <!----Product Cards--->
+    <div class="container" id="product-cards">
+      <h1 class="text-center">PRODUCTS</h1>
+      <div class="row" style="margin-top: 30px">
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="images/p6.png" alt="" />
+            <div class="card-body">
+              <h3 class="text-center">Iphone 13 pro</h3>
+              <p class="text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <h2>
+                $800 <span><li class="fa-solid fa-cart-shopping"></li></span>
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="images/a1.png" alt="" />
+            <div class="card-body">
+              <h3 class="text-center">Airpods</h3>
+              <p class="text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <h2>
+                $80 <span><li class="fa-solid fa-cart-shopping"></li></span>
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="images/laptop2.png" alt="" />
+            <div class="card-body">
+              <h3 class="text-center">Laptop</h3>
+              <p class="text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <h2>
+                $1000 <span><li class="fa-solid fa-cart-shopping"></li></span>
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="images/t1.png" alt="" />
+            <div class="card-body">
+              <h3 class="text-center">Ipad</h3>
+              <p class="text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <h2>
+                $200 <span><li class="fa-solid fa-cart-shopping"></li></span>
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" style="margin-top: 30px">
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="images/w1.png" alt="" />
+            <div class="card-body">
+              <h3 class="text-center">Smart Watch</h3>
+              <p class="text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <h2>
+                $50 <span><li class="fa-solid fa-cart-shopping"></li></span>
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="images/pcm1.png" alt="" />
+            <div class="card-body">
+              <h3 class="text-center">PC Monitor</h3>
+              <p class="text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <h2>
+                $500 <span><li class="fa-solid fa-cart-shopping"></li></span>
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="images/phone1.png" alt="" />
+            <div class="card-body">
+              <h3 class="text-center">Iphone X</h3>
+              <p class="text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <h2>
+                $600 <span><li class="fa-solid fa-cart-shopping"></li></span>
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="images/h1.png" alt="" />
+            <div class="card-body">
+              <h3 class="text-center">Headphones</h3>
+              <p class="text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <h2>
+                $150 <span><li class="fa-solid fa-cart-shopping"></li></span>
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----End Product Cards--->
+
+    <!----Offer--->
+    <div class="container" id="offer">
+      <div class="row">
+        <div class="col-md-3 py-3 py-md-0">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <h3>Free shipping</h3>
+          <p>On order over $1000</p>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <i class="fa-solid fa-rotate-left"></i>
+          <h3>Free Return</h3>
+          <p>within 30 days</p>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <i class="fa-solid fa-truck"></i>
+          <h3>Fast delivery</h3>
+          <p>All over Pakistan!</p>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <i class="fa-solid fa-thumbs-up"></i>
+          <h3>Big choice</h3>
+          <p>of products</p>
+        </div>
+      </div>
+    </div>
+    <!----End Offer--->
+
+    <!---Newslater----->
+    <div class="container" id="newslater">
+      <h3 class="text-center">
+        Subscribe to Electronic shop for latests Updates
+      </h3>
+      <div class="input text-center">
+        <input type="text" placeholder="Enter your Email.." />
+        <button id="subs">SUBSCRIBE</button>
+      </div>
+    </div>
+    <!---EndNewslater----->
+
+    <!---footer----->
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <h3>Electronic Shop</h3>
+              <p>Karachi <br />Sindh <br />Pakistan</p>
+              <strong>Phone:</strong> +928387438434 <br />
+              <strong>Email:</strong> umairfaiz@gmail.com <br />
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Usefull Links</h4>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Terms & Services</a></li>
+                <li><a href="#">privacy & policey</a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Our Services</h4>
+              <ul>
+                <li><a href="#">Ps 5</a></li>
+                <li><a href="#">Computer</a></li>
+                <li><a href="#">Gaming laptop</a></li>
+                <li><a href="#">Mobile Phone</a></li>
+                <li><a href="#">Gaming Gadget</a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Our social networks</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
+                fugit.
+              </p>
+              <div class="social-links mt-3">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-skype"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="container py-4">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Electronic Shop</span></strong
+          >. All Rights Reserved
+        </div>
+        <div class="credits">Designed by <a href="#">Umair Developer</a></div>
+      </div>
+    </footer>
+
+    <!---End footer----->
+
+    <a href="#" class="arrow"
+      ><i><img src="./images/arrow.png" alt="" /></i
+    ></a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
